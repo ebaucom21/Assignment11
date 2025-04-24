@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ebaucom21/Assignment11.git"
+    "url": "https://github.com/ebaucom21/Assignment11.git"
   },
   "author": "",
   "license": "ISC",
@@ -15,5 +15,21 @@
     "url": "https://github.com/ebaucom21/Assignment11/issues"
   },
   "homepage": "https://github.com/ebaucom21/Assignment11#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@opentelemetry/api": "^1.9.0",
+    "@opentelemetry/auto-instrumentations-node": "^0.58.0",
+    "@opentelemetry/exporter-jaeger": "^2.0.0",
+    "@opentelemetry/exporter-trace-otlp-http": "^0.200.0",
+    "@opentelemetry/instrumentation-express": "^0.48.1",
+    "@opentelemetry/instrumentation-http": "^0.200.0",
+    "@opentelemetry/instrumentation-mongodb": "^0.53.0",
+    "@opentelemetry/resources": "^1.0.0",
+    "@opentelemetry/sdk-metrics": "^2.0.0",
+    "@opentelemetry/sdk-node": "^0.200.0",
+    "@opentelemetry/sdk-trace-node": "^2.0.0",
+    "@opentelemetry/semantic-conventions": "^1.32.0",
+    "express": "^5.1.0",
+    "mongodb": "^4.3.1"
+  }
 }
